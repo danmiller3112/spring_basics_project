@@ -2,10 +2,12 @@ package core.loggers;
 
 import core.beans.Event;
 
+import java.io.IOException;
+
 /**
  * Created by RDL on 19/04/2017.
  */
 public interface EventLogger {
 
-    void logEvent(Event event);
+    void logEvent(Event event) throws IOException;
 }

@@ -2,3 +2,8 @@
 /.idea/
 /src/test/
 /spring_basics_project.iml
+.idea/
+pom.xml
+spring_basics_project.iml
+src/
+target/

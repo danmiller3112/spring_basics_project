@@ -21,9 +21,17 @@
 
     <bean id="dateFormat" class="java.text.DateFormat" factory-method="getDateTimeInstance"/>
 
+    <bean id="FileEventLogger" class="core.loggers.FileEventLogger" init-method="init">
+        <constructor-arg value="target/logger_out.txt"/>
+    </bean>
+
+    <bean id="CashFileEventLogger" class="core.loggers.CashFileEventLogger" destroy-method="destroy">
+        <constructor-arg value="target/logger_out.txt"/>
+        <constructor-arg value="5"/>
+    </bean>
+
     <bean id="app" class="core.App">
         <constructor-arg ref="client"/>
         <constructor-arg ref="eventLogger"/>
     </bean>
-
 </beans>
