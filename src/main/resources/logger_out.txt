@@ -1,0 +1,8 @@
+Event{id=1, msg='Some event 2', date=Apr 25, 2017 4:34:46 PM}
+Event{id=2, msg='Some event 3', date=Apr 25, 2017 4:34:46 PM}
+Event{id=1, msg='Some event 2', date=Apr 25, 2017 4:34:48 PM}
+Event{id=2, msg='Some event 3', date=Apr 25, 2017 4:34:48 PM}
+Event{id=1, msg='Some event 2', date=Apr 25, 2017 4:34:50 PM}
+Event{id=2, msg='Some event 3', date=Apr 25, 2017 4:34:50 PM}
+Event{id=1, msg='Some event 2', date=Apr 25, 2017 4:53:16 PM}
+Event{id=2, msg='Some event 3', date=Apr 25, 2017 4:53:16 PM}

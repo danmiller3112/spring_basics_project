@@ -1,6 +1,7 @@
 package core.loggers;
 
 import core.beans.Event;
+import core.beans.EventType;
 
 import java.io.IOException;
 
