@@ -18,8 +18,7 @@
         <constructor-arg value="src/main/resources/logger_out.txt"/>
     </bean>
 
-    <bean id="cashFileEventLogger" class="core.loggers.CashFileEventLogger" parent="fileEventLogger"
-          destroy-method="destroy">
+    <bean id="cashFileEventLogger" class="core.loggers.CashFileEventLogger" parent="fileEventLogger" destroy-method="destroy">
         <constructor-arg value="5"/>
     </bean>
 
